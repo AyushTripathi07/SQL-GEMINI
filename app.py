@@ -3,7 +3,7 @@ import os
 import sqlite3
 import google.generativeai as genai
 
-genai.configure(api_key = os.getenv('AIzaSyC-sEi3Ia_-k-490SULzm93ELg7YY6uCQw'))
+genai.configure(api_key = os.getenv('API'))
 
 prompt=[
     """
